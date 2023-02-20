@@ -1,0 +1,63 @@
+.modal {
+  padding: 70px 80px 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 40vw;
+  height: 40vh;
+  box-shadow: 0 20px 40px -5px;
+  position: fixed;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  z-index: 1000;
+  line-height: 2.5rem;
+}
+.logo {
+  position: absolute;
+  left: -80px;
+  top: -120px;
+  height: 250px;
+}
+
+.modalClose {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+  background-color: #fff;
+}
+
+.modalClose:hover {
+  border-radius: 50px;
+  transition: 0.7s;
+  background-color: #2c8758;
+}
+
+.cancelButton {
+  width: 30px;
+  height: 30px;
+}
+
+.modal h1 {
+  text-align: center;
+  color: #2f323f;
+}
+
+.link {
+  color: #4adc91;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2c8758;
+  transition: all 0.5s ease-in-out;
+}

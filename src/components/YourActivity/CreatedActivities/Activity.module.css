@@ -1,0 +1,90 @@
+.box {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activityBox {
+  border: solid 2px #2c8758;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 250px;
+  height: 260px;
+  margin: 10px;
+  font-size: 14px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+}
+
+.button {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #2c8758;
+  background-color: #97ebc0;
+  border-radius: 30px;
+  color: #2f323f;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button1,
+.button2 {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #2c8758;
+  background-color: #97ebc0;
+  border-radius: 30px;
+  color: #2f323f;
+  font-weight: 600;
+  margin-top: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.button1 {
+  bottom: 70px;
+}
+
+.button2 {
+  bottom: 25px;
+}
+
+.button:hover,
+.button1:hover,
+.button2:hover {
+  background-color: #ffffff;
+  color: #2c8758;
+  transition: 0.7s;
+}
+
+.input {
+  min-height: 40px;
+  min-width: 200px;
+}
+
+.activeEditBox {
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  background-color: #2f323f;
+  display: flex;
+  flex-direction: column;
+  color: #4adc91;
+  font-weight: 600;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #2c8758;
+  transition: 0.7s;
+}
+
+.activity {
+  text-align: center;
+}

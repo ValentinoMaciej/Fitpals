@@ -1,0 +1,85 @@
+.footer {
+  background-color: #59b686;
+  width: auto;
+  height: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.footerOption {
+  width: 70vw;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTitle {
+  margin: 1em;
+}
+
+.footerOption p {
+  color: #2f323f;
+  font-weight: bold;
+}
+
+.gitHubLogo {
+  height: 3em;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gitHubLogo:hover {
+  background-color: #fff;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #2f323f;
+}
+
+.developers {
+  display: flex;
+  justify-content: center;
+  color: #2f323f;
+}
+
+.devList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.devContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2f323f;
+}
+
+.devContainer h2 {
+  margin-bottom: 20px;
+}

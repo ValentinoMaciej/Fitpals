@@ -1,0 +1,73 @@
+.heading {
+  margin: 0px;
+  text-align: center;
+  color: #2f323f;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  border: solid 2px #2c8758;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 250px;
+  height: 260px;
+  margin: 10px;
+  font-size: 14px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+  list-style: none;
+}
+
+.listBoxes {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #2c8758;
+  background-color: #97ebc0;
+  border-radius: 30px;
+  color: #2f323f;
+  font-weight: 600;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #2c8758;
+  transition: 0.7s;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 50px auto 110px;
+  background-color: #fff;
+  padding: 30px;
+  border: 2px solid #2c8758;
+}
+
+.descriptionBold {
+  font-weight: 600;
+  margin: 20px;
+}
+
+.link {
+  color: #4adc91;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2c8758;
+  transition: all 0.5s ease-in-out;
+}

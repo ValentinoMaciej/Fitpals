@@ -1,0 +1,85 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  height: 500px;
+  background-color: #2f323f;
+}
+.contactForm h3 {
+  color: #4adc91;
+  margin-bottom: 20px;
+}
+
+.sendButton {
+  height: 3em;
+  width: 200px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 2em 0;
+  background-color: #97ebc0;
+  color: #2f323f;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.sendButton:hover {
+  background-color: white;
+  transition: 0.7s;
+  color: #2f323f;
+}
+.contactSection {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url(../../Assets/backrgound-svg-svg1.svg) no-repeat;
+  background-attachment: cover;
+  height: 50em;
+}
+
+.mapGoogle {
+  margin: 2em 0 2em 0;
+  height: 400px;
+}
+
+.contactInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2f323f;
+  font-weight: bold;
+}
+.address {
+  text-align: center;
+}
+
+.formLabel {
+  color: #4adc91;
+  font-size: larger;
+}
+.inputStyle {
+  background-color: white;
+  width: 200px;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.textarealInput {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.emailInput {
+  height: 3em;
+  width: 200px;
+}
+
+.nameInput {
+  height: 3em;
+}
