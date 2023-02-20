@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+PROJECT:
 
 //ENG
 This is a project made using the React library. It was written in order to pass the Bootcamp at InfoShareAcademy.
