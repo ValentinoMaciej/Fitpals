@@ -1,6 +1,6 @@
 PROJECT:
 
-//ENG
+//ENG//
 This is a project made using the React library. It was written in order to pass the Bootcamp at InfoShareAcademy.
 The techstack used to produce the application is: HTML, CSS, JavaScript, React.
 
@@ -19,7 +19,7 @@ The project was a group execution (team of 4 people).
 Among other things, I was responsible for:
 styling, creating the "Znajdź Fitpala", premium and contact sections, as well as the footer and password reminder.
 
-//PL
+//PL//
 Jest to project wykonany przy użyciu biblioteki React. Został napisany w celu zaliczenia Bootcampu w InfoShareAcademy.
 Techstack użyty przy produkcji aplikacji to: HTML, CSS, JavaScript, React.
 
