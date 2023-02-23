@@ -2,7 +2,7 @@ PROJECT:
 
 //ENG// <br>
 This is a project made using the React library. It was written in order to pass the Bootcamp at InfoShareAcademy. <br>
-The techstack used to produce the application is: HTML, CSS, JavaScript, React. <br>
+The techstack used to produce the application is: HTML, CSS, JavaScript, React, Firebase (Firestore). <br>
 
 In line with the project, we implemented CRUD-type functionality: <br>
 Adding data, <br>
@@ -21,7 +21,7 @@ Creating the "Znajdź Fitpala", premium and contact sections, as well as the foo
 
 //PL// <br>
 Jest to project wykonany przy użyciu biblioteki React. Został napisany w celu zaliczenia Bootcampu w InfoShareAcademy. <br>
-Techstack użyty przy produkcji aplikacji to: HTML, CSS, JavaScript, React. <br>
+Techstack użyty przy produkcji aplikacji to: HTML, CSS, JavaScript, React, Firebase (Firestore). <br>
 
 Zgodnie z założeniami projektu zaimplementowaliśmy funkcjonalności typu CRUD: <br>
 Dodawanie danych, <br>
